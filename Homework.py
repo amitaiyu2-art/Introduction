@@ -20,7 +20,7 @@ elif cheese == "no":
 else:
     print("This is a yes or no question. Try again! ")
     while cheese != "yes" or cheese != "no":
-        cheese2 = input("do you like cheese").lower()
+        cheese2 = input("do you like chez?").lower()
         if cheese2 == "yes":
             print("Finally... Good")
             break
